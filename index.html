@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Alexander IT</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<header>
+    <h1>Alexander IT</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="form.php">Form</a>
+        <a href="viewdata.php">Data</a>
+    </nav>
+</header>
+
+<main>
+    <section class="intro">
+        <h2>Welcome to My Company</h2>
+        <img src="imgs/What-Services-Does-an-IT-Company-Typically-Provide.jpg" alt="Descriptive alt text for your image">
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Alexander IT. All Rights Reserved.</p>
+</footer>
+<script>
+window.addEventListener('load', function(){
+    var footerHeight = document.querySelector('footer').offsetHeight;
+    document.querySelector('.container').style.marginBottom = footerHeight + 'px';
+});
+</script>
+
+</body>
+</html>
